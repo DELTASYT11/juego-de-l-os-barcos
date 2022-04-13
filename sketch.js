@@ -42,7 +42,7 @@ bala.display();
  
 }
 
-function Disparar(){
+function Disparar(){ // esta funcion se tiene que llamar ---> keyReleased() 
 if(keyCode===DOWN_ARROW){
 bala.shoot()
 
